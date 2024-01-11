@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
 // mongoose.connect('mongodb://127.0.0.1:27017/gauravImage');
-mongoose.connect("mongodb+srv://Gaurav:eP2ILjAadWqdYhMda@loneximagecrud.s8tvog4.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://Gaurav:eP2ILjAadWqdYhMda@imagecrud.s8tvog4.mongodb.net/?retryWrites=true&w=majority")
 app.use(cors());
 
 //user routes
